@@ -1,0 +1,103 @@
+.about{
+  padding: 10px;
+}
+
+
+
+
+
+#name{
+    margin: 8px 0;
+ 
+   text-decoration: underline overline ;
+   text-decoration-style: wavy;
+    color: #ffe3d8;
+
+}
+
+
+
+
+#content{
+  /* border: 2px solid black; */
+  padding: 20px;
+  margin: 20px;
+  float: left;
+  display: flex;
+  width: 80%;
+  animation-name: content;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes content {
+  0%   {left: -1000px; }
+  100% {left: 0;}
+}
+
+.col1 , .col2 {
+  width: 50%;
+  border: 2px outset black;
+  padding: 20px;
+  margin: 5px 0;
+
+
+}
+/* .col2{
+  border-left: 2px dashed white;
+}
+.col1{
+  border-right: 2px dashed white;
+} */
+
+.about{
+  margin-top: 50px;
+  margin-left: 15px;
+}
+.mainh{
+  margin: 8px 0;
+  color: #ffe3d8;
+   text-decoration: underline ;
+   padding: 5px;
+   text-decoration-style: wavy;
+   /* text-decoration-color: black; */
+}
+
+
+.subh{
+  margin: 5px 0;
+  /* color: #eeeded; */
+
+  text-decoration: underline ;
+    text-decoration-style: dashed;
+  
+  
+
+ 
+}
+  
+.list{
+  list-style-type: square;
+  margin-left: 12px;
+  /* font-size: 18px; */
+}
+
+/* .list1{
+   line-height: 1.2em;
+} */
+/* #content 
+color: #bbb;
+ 
+}*/
+  .content p{
+    font-size: 18px;
+
+  }
+
+#pawn1{
+  width:30px;
+  height: 30px;
+
+
+}

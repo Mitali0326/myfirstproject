@@ -1,0 +1,88 @@
+ *{
+  margin: 0;
+  padding: 0;
+  }
+body{
+   background:rgb(31, 29, 29);
+    background-size: cover;
+   
+    
+    
+    
+    height: 100vh
+}
+#title {
+  text-align: center;
+  margin-top: 30px; 
+  /* color:white; */
+  text-shadow: 2px 2px 5px black;
+  animation-name: title;
+  animation-duration: s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+   
+  
+}
+
+@keyframes  title{
+  0%   {top: -50px;}
+  100% {top: 30px;}
+}
+#title:hover{
+  font-size: 40px;
+  text-shadow: 1px 1px white;
+   /* text-decoration: underline ; */
+   padding: 2px;
+   
+    /* text-decoration-style: wavy; */
+    /* text-decoration-color: black; */
+}
+
+
+.gallery{
+  
+ 
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+  align-items: center;
+  margin-top: 20px;
+ 
+}
+.pic img{
+  width: 300px;
+  height:200px;
+  margin: 20px;
+  transition: width .5s, height .5s;
+  border-radius: 50%;
+   box-shadow: 2px 2px 15px black;
+
+
+} 
+
+
+
+div.pic img:hover {
+  width: 320px;
+  height:220px;
+  border-radius: 15%;
+   transform: rotateY(180deg);
+
+  
+
+
+  
+}
+
+
+div.desc {
+  color:white;
+  padding: 15px;
+  text-align: center;
+}
+
+
+div.desc h3:hover{
+text-shadow: 1px 1px black;
+font-size:25px ;
+}
